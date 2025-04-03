@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>PC Treinamentos</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+
+    header img {
+      height: 60px;
+      margin-right: 20px;
+    }
+
+    header h1 {
+      font-size: 24px;
+      color: #333;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #eee;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.4;
+    }
+
+    #services {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    #services h3 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    #services ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    #services li {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      font-weight: bold;
+    }
+
+    #about {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    #about h3 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    #about .about-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #about .profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      object-fit: cover;
+      box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    }
+
+    #about .about-text {
+      text-align: center;
+      line-height: 1.5;
+      font-size: 16px;
+      max-width: 600px;
+    }
+
+    #partners {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    #partners h3 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    #partners .partners-logos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      min-height: 100px;
+      align-items: center;
+    }
+
+    #contact {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    #contact h3 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    #contact p {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    #contact a {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #25D366;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    #contact a:hover {
+      background-color: #20b659;
+    }
+
+    #contact img {
+      vertical-align: middle;
+      margin-right: 10px;
+      height: 24px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="Logo PC treinamentos.png" alt="Logo PC Treinamentos" style="height: 100px;" />
+  </header>
+
+
+  <section class="hero">
+    <h2>Treinamentos Corporativos Personalizados</h2>
+    <p>
+      Oferecemos treinamentos especializados em ferramentas essenciais para o mercado de trabalho, 
+      como Excel, PowerPoint, Power BI e Inteligência Artificial. Tudo sob medida para sua empresa.
+    </p>
+  </section>
+
+  <section id="services">
+    <h3>Nossos Treinamentos</h3>
+    <ul>
+      <li>Excel</li>
+      <li>PowerPoint</li>
+      <li>Power BI</li>
+      <li>Inteligência Artificial</li>
+      <li>Finanças Pessoais</li>
+    </ul>
+  </section>
+
+
+  <section id="about">
+    <h3>Sobre Mim</h3>
+    <div class="about-content">
+      <img src="Foto de Perfil Pedro.jpg" alt="Foto de Pedro Cândido" class="profile-photo" />
+      <div class="about-text">
+        <p>
+          Formado em Administração de Empresas pelo Insper, com especializações na Kedge Business School (França) e na HEC Montréal (Canadá). 
+          Possui 2 anos de experiência no mercado financeiro, atuando em bancos e gestoras de investimentos.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="partners">
+    <h3>Empresas que já contaram com o nosso serviço</h3>
+    <div class="partners-logos">
+      <!-- Logos de empresas parceiras podem ser adicionadas aqui futuramente -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3>Entre em Contato</h3>
+    <p>Precisa de um treinamento sob medida para sua empresa?</p>
+    <p>Fale conosco via WhatsApp:</p>
+    <a href="https://wa.me/5519996626596" target="_blank">
+      <img 
+        src="https://img.icons8.com/color/48/000000/whatsapp.png" 
+        alt="WhatsApp" 
+      />
+      (19) 99662-6596
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2025 PC Treinamentos. Todos os direitos reservados.</p>
+    <p>CNPJ: 60.149.596/0001-18</p>
+  </footer>
+
+</body>
+</html>
+
